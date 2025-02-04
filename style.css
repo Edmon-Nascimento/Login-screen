@@ -8,4 +8,89 @@
 
 html, body{
     height: 100vh;
+    background-color: #5F2C82;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login{
+    background-color: white;
+    height: 520px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.img{
+    background: url('images/metal.jpg');
+    background-size: cover;
+    background-position: left bottom;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+.form{
+   padding: 20px;
+}
+
+.form > p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input#login, input#senha{
+    width: 85%;
+    padding: 5px;
+    outline: none;
+}
+
+.container-bg{
+    background-color: #5F2C82;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 2px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.botao{
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.568);
+    margin-bottom: 5px;
+    background-color: #489c9a;
+    color: white;
+}
+
+.botao:hover{
+    background-color: #2C5E5C;
+}
+
+a{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #2d6462;
+}
+
+a:hover{
+    background-color: #6cd3cf;
 }
