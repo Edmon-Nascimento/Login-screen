@@ -5,16 +5,15 @@ body, html{
 }
 
 .login{
-    width: 70vw;
-    max-width: 1000px;   
+    width: 70vw;  
     height: 300px;
     display: flex;
 }
 
 .img{
-    display: block;
     height: 100%;
     width: 30%;
+    border-radius: 20px 0 0 20px;
 }
 
 .form{

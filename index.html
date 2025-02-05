@@ -6,6 +6,7 @@
     <title>Tela de login</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/medium-screen.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="styles/large-screen.css" media="screen and (min-width: 992px)">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
@@ -21,19 +22,19 @@
                 </p>
                 <form action="" method="post">
                     <p class="container-bg">
-                        <input type="email" name="login" id="login" placeholder="Insira seu e-mail">
+                        <input type="email" name="login" id="login" placeholder="Insira seu e-mail" required>
                         <label for="login"><span class="material-symbols-outlined">
                             person
                             </span></label>
                     </p>
                     <p class="container-bg">
-                        <input type="password" name="senha" id="senha" placeholder="Insira sua senha">
+                        <input type="password" name="senha" id="senha" placeholder="Insira sua senha" required minlength="8" maxlength="30">
                         <label for="senha"><span class="material-symbols-outlined">
                             lock
                             </span></label>
                     </p>
-                    <input class="botao" type="button" value="Entrar">
-                    <p><a href="">Esqueci minha senha <span class="material-symbols-outlined">
+                    <input class="botao" type="submit" value="Entrar" onclick="login()">
+                    <p><a href="">Esqueci minha senha <span class="material-symbols-outlined" onclick="senha()">
                         mail
                         </span></a></p>
 
