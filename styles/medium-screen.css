@@ -6,6 +6,7 @@ body, html{
 
 .login{
     width: 70vw;
+    max-width: 1000px;   
     height: 300px;
     display: flex;
 }
